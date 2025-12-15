@@ -4,7 +4,3 @@ bin/testTableEntry:	testTableEntry.cpp TableEntry.h HashTable.h testHashTable.cp
 	g++ -o bin/testHashTable testHashTable.cpp
 	g++ -o bin/testBSTree testBSTree.cpp
 
-clean:
-	rm -rf *.o *.gch bin
-	
-	
