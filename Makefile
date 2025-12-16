@@ -1,4 +1,4 @@
-bin/testTableEntry:	testTableEntry.cpp TableEntry.h HashTable.h testHashTable.cpp testBSTree.cpp BSTREE.h BSTreeDict.h testBSTreeDict.cpp
+update:	testTableEntry.cpp TableEntry.h HashTable.h testHashTable.cpp testBSTree.cpp BSTREE.h BSTreeDict.h
 	mkdir -p bin
 	g++ -o bin/testTableEntry testTableEntry.cpp
 	g++ -o bin/testHashTable testHashTable.cpp
